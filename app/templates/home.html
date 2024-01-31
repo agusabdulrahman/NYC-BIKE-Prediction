@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NYC-BIKE Prediction</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      a:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to NYC-BIKE Prediction</h1>
+    <p>This is the home page of your NYC-BIKE prediction application. Click below to make predictions:</p>
+    <a href="{{ url_for('predict') }}">Go to Prediction Page</a>
+  </body>
+</html>

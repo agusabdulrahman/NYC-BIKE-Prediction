@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predict NYC-BIKE</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      input[type='submit'] {
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      input[type='submit']:hover {
+        background-color: #45a049;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 30px;
+      }
+
+      p {
+        text-align: center;
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>NYC-BIKE Prediction</h1>
+
+    <form method="post" action="{{ url_for('predict') }}">
+      <label for="HighTemp">High Temperature:</label>
+      <input type="text" name="HighTemp" required /><br />
+
+      <label for="LowTemp">Low Temperature:</label>
+      <input type="text" name="LowTemp" required /><br />
+
+      <label for="Precipitation">Precipitation:</label>
+      <input type="text" name="Precipitation" required /><br />
+
+      <input type="submit" value="Predict" />
+    </form>
+
+    {% if prediction %}
+    <h2>Prediction Result:</h2>
+    <p>The Total predicted NYC-BIKE Prediction is: {{ prediction }}</p>
+    {% endif %}
+  </body>
+</html>
