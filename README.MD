@@ -1,6 +1,29 @@
-### Business problem
+# NYC-BIKE Prediction App
 
-Business problem atau masalah bisnisnya mungkin terkait dengan efisiensi dan manajemen sumber daya terkait lintasan sepeda. Misalnya, jika terdapat fluktuasi jumlah lintasan sepeda yang berkaitan dengan perubahan cuaca, pengelola lintasan sepeda dapat menggunakan model ini untuk membuat perkiraan dan mengoptimalkan pelayanan mereka sesuai dengan kondisi cuaca yang diantisipasi.
+## Business Problem
 
-### Business goal
-Business goal atau tujuan bisnisnya mungkin adalah untuk memahami bagaimana faktor cuaca seperti suhu dan curah hujan mempengaruhi jumlah lintasan sepeda di berbagai jembatan di New York City. Dengan pemahaman ini, bisnis dapat mengambil keputusan yang lebih baik terkait manajemen lintasan sepeda, termasuk penjadwalan dan pengelolaan fasilitas sepeda, berdasarkan prakiraan cuaca.
+Aplikasi ini dirancang untuk membantu pengelola lintasan sepeda di New York City dalam mengatasi fluktuasi jumlah lintasan sepeda yang dipengaruhi oleh faktor cuaca. Dengan menggunakan model prediksi, pengelola dapat membuat perkiraan berdasarkan kondisi cuaca yang diantisipasi, memungkinkan mereka untuk mengoptimalkan sumber daya dan meningkatkan efisiensi manajemen lintasan sepeda.
+
+## Tujuan Bisnis
+
+Tujuan bisnis dari aplikasi ini adalah memahami dampak faktor cuaca, seperti suhu dan curah hujan, terhadap jumlah lintasan sepeda di berbagai jembatan di New York City. Dengan pemahaman ini, pengelola lintasan sepeda dapat mengambil keputusan yang lebih baik terkait manajemen fasilitas sepeda, penjadwalan, dan pelayanan berdasarkan prakiraan cuaca.
+
+## Exploratory Data Analysis (EDA)
+
+### Output 1: Histogram Data Lintasan Sepeda
+
+![Histogram](media/output1.png)
+
+### Output 2: Korelasi Variabel Cuaca dan Total Lintasan Sepeda
+
+![Correlation](media/output.png)
+
+## Tampilan Antarmuka Pengguna (UI)
+
+### Halaman Depan Aplikasi
+
+![Landing Page](media/landing.png)
+
+### Halaman Prediksi
+
+![Prediction Page](media/Screenshot.jpg)
