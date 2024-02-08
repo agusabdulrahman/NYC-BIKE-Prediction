@@ -24,6 +24,10 @@ Tujuan bisnis dari aplikasi ini adalah memahami dampak faktor cuaca, seperti suh
 
 ![Landing Page](media/landing.png)
 
-### Halaman Prediksi
+### Halaman Prediksi Web Services
 
 ![Prediction Page](media/Screenshot.jpg)
+
+### Halaman Prediksi Streamlit
+
+![Prediction Page](media/Screenshot1.png)
