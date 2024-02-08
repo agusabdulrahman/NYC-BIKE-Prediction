@@ -10,11 +10,11 @@ Tujuan bisnis dari aplikasi ini adalah memahami dampak faktor cuaca, seperti suh
 
 ## Exploratory Data Analysis (EDA)
 
-### Output 1: Histogram Data Lintasan Sepeda
+### Output 1: Pairplot Data Lintasan Sepeda
 
 ![Histogram](media/output1.png)
 
-### Output 2: Korelasi Variabel Cuaca dan Total Lintasan Sepeda
+### Output 2: Sebaran Total Lintasan Sepeda Selama 1 Bulan
 
 ![Correlation](media/output.png)
 
